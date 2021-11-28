@@ -88,7 +88,7 @@ sed -i "s/localhost/$IP_MYSQL/" /var/www/html/config.php
 chown www-data:www-data /var/www/html -R 
 
 
-## Cambiamos el nombre de la página principal de nuestro Front2:
+## Cambiamos el nombre de la página principal de nuestro Front1:
 
 sed -i "s/Simple LAMP web app/LAMP Front2/" /var/www/html/index.php
 
